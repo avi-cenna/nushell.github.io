@@ -1,0 +1,20 @@
+import{_ as e,p,q as o,Q as n,t as s,v as t,a1 as c}from"./framework-344bb0e4.js";const r={},l={id:"frontmatter-title-for-lazyframe",tabindex:"-1"},u=n("a",{class:"header-anchor",href:"#frontmatter-title-for-lazyframe","aria-hidden":"true"},"#",-1),k={class:"command-title"},i=c(`<h2 id="signature" tabindex="-1"><a class="header-anchor" href="#signature" aria-hidden="true">#</a> Signature</h2><p><code>&gt; dfr sort-by </code></p><h2 id="examples" tabindex="-1"><a class="header-anchor" href="#examples" aria-hidden="true">#</a> Examples</h2><p>Sort dataframe by one column</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token punctuation">[</span>a b<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">[</span><span class="token number">6</span> <span class="token number">2</span><span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token number">1</span> <span class="token number">4</span><span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token number">4</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">|</span> dfr into-df <span class="token operator">|</span> dfr sort-by a
+╭───┬───┬───╮
+│ <span class="token comment"># │ a │ b │</span>
+├───┼───┼───┤
+│ <span class="token number">0</span> │ <span class="token number">1</span> │ <span class="token number">4</span> │
+│ <span class="token number">1</span> │ <span class="token number">4</span> │ <span class="token number">1</span> │
+│ <span class="token number">2</span> │ <span class="token number">6</span> │ <span class="token number">2</span> │
+╰───┴───┴───╯
+
+</code></pre></div><p>Sort column using two columns</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token punctuation">[</span>a b<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">[</span><span class="token number">6</span> <span class="token number">2</span><span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token number">1</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token number">1</span> <span class="token number">4</span><span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token number">2</span> <span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">|</span> dfr into-df <span class="token operator">|</span> dfr sort-by <span class="token punctuation">[</span>a b<span class="token punctuation">]</span> <span class="token parameter variable">-r</span> <span class="token punctuation">[</span>false true<span class="token punctuation">]</span>
+╭───┬───┬───╮
+│ <span class="token comment"># │ a │ b │</span>
+├───┼───┼───┤
+│ <span class="token number">0</span> │ <span class="token number">1</span> │ <span class="token number">4</span> │
+│ <span class="token number">1</span> │ <span class="token number">1</span> │ <span class="token number">1</span> │
+│ <span class="token number">2</span> │ <span class="token number">2</span> │ <span class="token number">4</span> │
+│ <span class="token number">3</span> │ <span class="token number">6</span> │ <span class="token number">2</span> │
+╰───┴───┴───╯
+
+</code></pre></div>`,7);function m(a,b){return p(),o("div",null,[n("h1",l,[u,s(),n("code",null,t(a.$frontmatter.title),1),s(" for lazyframe")]),n("div",k,t(a.$frontmatter.lazyframe),1),i])}const f=e(r,[["render",m],["__file","dfr_sort-by.html.vue"]]);export{f as default};

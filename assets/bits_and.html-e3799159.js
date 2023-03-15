@@ -1,0 +1,10 @@
+import{_ as t,p as r,q as o,Q as a,t as e,v as n,a1 as p}from"./framework-344bb0e4.js";const c={},l={id:"frontmatter-title-for-bits",tabindex:"-1"},i=a("a",{class:"header-anchor",href:"#frontmatter-title-for-bits","aria-hidden":"true"},"#",-1),d={class:"command-title"},u=p(`<h2 id="signature" tabindex="-1"><a class="header-anchor" href="#signature" aria-hidden="true">#</a> Signature</h2><p><code>&gt; bits and (target)</code></p><h2 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters" aria-hidden="true">#</a> Parameters</h2><ul><li><code>target</code>: target integer to perform bit and</li></ul><h2 id="examples" tabindex="-1"><a class="header-anchor" href="#examples" aria-hidden="true">#</a> Examples</h2><p>Apply bits and to two numbers</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token number">2</span> <span class="token operator">|</span> bits and <span class="token number">2</span>
+<span class="token number">2</span>
+</code></pre></div><p>Apply logical and to a list of numbers</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token number">4</span> <span class="token number">3</span> <span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">|</span> bits and <span class="token number">2</span>
+╭───┬───╮
+│ <span class="token number">0</span> │ <span class="token number">0</span> │
+│ <span class="token number">1</span> │ <span class="token number">2</span> │
+│ <span class="token number">2</span> │ <span class="token number">2</span> │
+╰───┴───╯
+
+</code></pre></div>`,9);function h(s,b){return r(),o("div",null,[a("h1",l,[i,e(),a("code",null,n(s.$frontmatter.title),1),e(" for bits")]),a("div",d,n(s.$frontmatter.bits),1),u])}const k=t(c,[["render",h],["__file","bits_and.html.vue"]]);export{k as default};

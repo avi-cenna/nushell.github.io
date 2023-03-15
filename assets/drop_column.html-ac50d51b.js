@@ -1,0 +1,9 @@
+import{_ as t,p as o,q as r,Q as a,t as e,v as s,a1 as c}from"./framework-344bb0e4.js";const l={},p={id:"frontmatter-title-for-filters",tabindex:"-1"},i=a("a",{class:"header-anchor",href:"#frontmatter-title-for-filters","aria-hidden":"true"},"#",-1),u={class:"command-title"},d=c(`<h2 id="signature" tabindex="-1"><a class="header-anchor" href="#signature" aria-hidden="true">#</a> Signature</h2><p><code>&gt; drop column (columns)</code></p><h2 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters" aria-hidden="true">#</a> Parameters</h2><ul><li><code>columns</code>: starting from the end, the number of columns to remove</li></ul><h2 id="examples" tabindex="-1"><a class="header-anchor" href="#examples" aria-hidden="true">#</a> Examples</h2><p>Remove the last column of a table</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token punctuation">[</span>lib, extension<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">[</span>nu-lib, rs<span class="token punctuation">]</span> <span class="token punctuation">[</span>nu-core, rb<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">|</span> drop <span class="token function">column</span>
+╭───┬─────────╮
+│ <span class="token comment"># │   lib   │</span>
+├───┼─────────┤
+│ <span class="token number">0</span> │ nu-lib  │
+│ <span class="token number">1</span> │ nu-core │
+╰───┴─────────╯
+
+</code></pre></div>`,7);function h(n,m){return o(),r("div",null,[a("h1",p,[i,e(),a("code",null,s(n.$frontmatter.title),1),e(" for filters")]),a("div",u,s(n.$frontmatter.filters),1),d])}const _=t(l,[["render",h],["__file","drop_column.html.vue"]]);export{_ as default};

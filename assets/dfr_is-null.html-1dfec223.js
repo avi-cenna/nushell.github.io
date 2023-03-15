@@ -1,0 +1,15 @@
+import{_ as o,p as r,q as l,Q as a,t as n,v as e,a1 as t}from"./framework-344bb0e4.js";const p={},c={id:"frontmatter-title-for-dataframe",tabindex:"-1"},i=a("a",{class:"header-anchor",href:"#frontmatter-title-for-dataframe","aria-hidden":"true"},"#",-1),d={class:"command-title"},u=t(`<h2 id="signature" tabindex="-1"><a class="header-anchor" href="#signature" aria-hidden="true">#</a> Signature</h2><p><code>&gt; dfr is-null </code></p><h2 id="examples" tabindex="-1"><a class="header-anchor" href="#examples" aria-hidden="true">#</a> Examples</h2><p>Create mask where values are null</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token builtin class-name">let</span> s <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">5</span> <span class="token number">6</span> <span class="token number">0</span> <span class="token number">8</span><span class="token punctuation">]</span> <span class="token operator">|</span> dfr into-df<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token builtin class-name">let</span> res <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token variable">$s</span> / <span class="token variable">$s</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token variable">$res</span> <span class="token operator">|</span> dfr is-null
+╭───┬─────────╮
+│ <span class="token comment"># │ is_null │</span>
+├───┼─────────┤
+│ <span class="token number">0</span> │ <span class="token boolean">false</span>   │
+│ <span class="token number">1</span> │ <span class="token boolean">false</span>   │
+│ <span class="token number">2</span> │ <span class="token boolean">true</span>    │
+│ <span class="token number">3</span> │ <span class="token boolean">false</span>   │
+╰───┴─────────╯
+
+</code></pre></div>`,5),h={id:"frontmatter-title-for-expression",tabindex:"-1"},f=a("a",{class:"header-anchor",href:"#frontmatter-title-for-expression","aria-hidden":"true"},"#",-1),m={class:"command-title"},k=t(`<h2 id="signature-1" tabindex="-1"><a class="header-anchor" href="#signature-1" aria-hidden="true">#</a> Signature</h2><p><code>&gt; dfr is-null </code></p><h2 id="examples-1" tabindex="-1"><a class="header-anchor" href="#examples-1" aria-hidden="true">#</a> Examples</h2><p>Creates a is null expression from a column</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> dfr col a <span class="token operator">|</span> dfr is-null
+
+</code></pre></div>`,5);function b(s,_){return r(),l("div",null,[a("h1",c,[i,n(),a("code",null,e(s.$frontmatter.title),1),n(" for dataframe")]),a("div",d,e(s.$frontmatter.dataframe),1),u,a("h1",h,[f,n(),a("code",null,e(s.$frontmatter.title),1),n(" for expression")]),a("div",m,e(s.$frontmatter.expression),1),k])}const x=o(p,[["render",b],["__file","dfr_is-null.html.vue"]]);export{x as default};

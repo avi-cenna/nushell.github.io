@@ -1,0 +1,12 @@
+import{_ as t,p as r,q as p,Q as a,t as e,v as n,a1 as o}from"./framework-344bb0e4.js";const c={},l={id:"frontmatter-title-for-math",tabindex:"-1"},i=a("a",{class:"header-anchor",href:"#frontmatter-title-for-math","aria-hidden":"true"},"#",-1),d={class:"command-title"},h=o(`<h2 id="signature" tabindex="-1"><a class="header-anchor" href="#signature" aria-hidden="true">#</a> Signature</h2><p><code>&gt; math sin --degrees</code></p><h2 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters" aria-hidden="true">#</a> Parameters</h2><ul><li><code>--degrees</code> <code>(-d)</code>: Use degrees instead of radians</li></ul><h2 id="examples" tabindex="-1"><a class="header-anchor" href="#examples" aria-hidden="true">#</a> Examples</h2><p>Apply the sine to π/2</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">(</span>math pi<span class="token punctuation">)</span> / <span class="token number">2</span> <span class="token operator">|</span> math sin
+<span class="token number">1</span>
+</code></pre></div><p>Apply the sine to a list of angles in degrees</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token number">0</span> <span class="token number">90</span> <span class="token number">180</span> <span class="token number">270</span> <span class="token number">360</span><span class="token punctuation">]</span> <span class="token operator">|</span> math sin <span class="token parameter variable">-d</span> <span class="token operator">|</span> math round <span class="token parameter variable">--precision</span> <span class="token number">4</span>
+╭───┬─────────╮
+│ <span class="token number">0</span> │  <span class="token number">0.0000</span> │
+│ <span class="token number">1</span> │  <span class="token number">1.0000</span> │
+│ <span class="token number">2</span> │  <span class="token number">0.0000</span> │
+│ <span class="token number">3</span> │ <span class="token parameter variable">-1.0000</span> │
+│ <span class="token number">4</span> │  <span class="token number">0.0000</span> │
+╰───┴─────────╯
+
+</code></pre></div>`,9);function m(s,u){return r(),p("div",null,[a("h1",l,[i,e(),a("code",null,n(s.$frontmatter.title),1),e(" for math")]),a("div",d,n(s.$frontmatter.math),1),h])}const b=t(c,[["render",m],["__file","math_sin.html.vue"]]);export{b as default};

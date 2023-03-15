@@ -1,0 +1,19 @@
+import{_ as o,p,q as r,Q as n,t as s,v as e,a1 as t}from"./framework-344bb0e4.js";const c={},l={id:"frontmatter-title-for-expression",tabindex:"-1"},i=n("a",{class:"header-anchor",href:"#frontmatter-title-for-expression","aria-hidden":"true"},"#",-1),u={class:"command-title"},d=t(`<h2 id="signature" tabindex="-1"><a class="header-anchor" href="#signature" aria-hidden="true">#</a> Signature</h2><p><code>&gt; dfr min </code></p><h2 id="examples" tabindex="-1"><a class="header-anchor" href="#examples" aria-hidden="true">#</a> Examples</h2><p>Min aggregation for a group-by</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token punctuation">[</span>a b<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">[</span>one <span class="token number">2</span><span class="token punctuation">]</span> <span class="token punctuation">[</span>one <span class="token number">4</span><span class="token punctuation">]</span> <span class="token punctuation">[</span>two <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+    <span class="token operator">|</span> dfr into-df
+    <span class="token operator">|</span> dfr group-by a
+    <span class="token operator">|</span> dfr agg <span class="token punctuation">(</span>dfr col b <span class="token operator">|</span> dfr min<span class="token punctuation">)</span>
+╭───┬─────┬───╮
+│ <span class="token comment"># │  a  │ b │</span>
+├───┼─────┼───┤
+│ <span class="token number">0</span> │ one │ <span class="token number">2</span> │
+│ <span class="token number">1</span> │ two │ <span class="token number">1</span> │
+╰───┴─────┴───╯
+
+</code></pre></div>`,5),m={id:"frontmatter-title-for-lazyframe",tabindex:"-1"},k=n("a",{class:"header-anchor",href:"#frontmatter-title-for-lazyframe","aria-hidden":"true"},"#",-1),h={class:"command-title"},f=t(`<h2 id="signature-1" tabindex="-1"><a class="header-anchor" href="#signature-1" aria-hidden="true">#</a> Signature</h2><p><code>&gt; dfr min </code></p><h2 id="examples-1" tabindex="-1"><a class="header-anchor" href="#examples-1" aria-hidden="true">#</a> Examples</h2><p>Min value from columns in a dataframe</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token punctuation">[</span>a b<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">[</span><span class="token number">6</span> <span class="token number">2</span><span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token number">1</span> <span class="token number">4</span><span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token number">4</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">|</span> dfr into-df <span class="token operator">|</span> dfr min
+╭───┬───┬───╮
+│ <span class="token comment"># │ a │ b │</span>
+├───┼───┼───┤
+│ <span class="token number">0</span> │ <span class="token number">1</span> │ <span class="token number">1</span> │
+╰───┴───┴───╯
+
+</code></pre></div>`,5);function b(a,g){return p(),r("div",null,[n("h1",l,[i,s(),n("code",null,e(a.$frontmatter.title),1),s(" for expression")]),n("div",u,e(a.$frontmatter.expression),1),d,n("h1",m,[k,s(),n("code",null,e(a.$frontmatter.title),1),s(" for lazyframe")]),n("div",h,e(a.$frontmatter.lazyframe),1),f])}const x=o(c,[["render",b],["__file","dfr_min.html.vue"]]);export{x as default};

@@ -1,0 +1,15 @@
+import{_ as e,p as o,q as p,Q as a,t as s,v as t,a1 as r}from"./framework-344bb0e4.js";const c={},i={id:"frontmatter-title-for-formats",tabindex:"-1"},l=a("a",{class:"header-anchor",href:"#frontmatter-title-for-formats","aria-hidden":"true"},"#",-1),u={class:"command-title"},d=r(`<h2 id="signature" tabindex="-1"><a class="header-anchor" href="#signature" aria-hidden="true">#</a> Signature</h2><p><code>&gt; to json --raw --indent --tabs</code></p><h2 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters" aria-hidden="true">#</a> Parameters</h2><ul><li><code>--raw</code> <code>(-r)</code>: remove all of the whitespace</li><li><code>--indent {number}</code>: specify indentation width</li><li><code>--tabs {number}</code>: specify indentation tab quantity</li></ul><h2 id="examples" tabindex="-1"><a class="header-anchor" href="#examples" aria-hidden="true">#</a> Examples</h2><p>Outputs a JSON string, with default indentation, representing the contents of this table</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span>a b c<span class="token punctuation">]</span> <span class="token operator">|</span> to json
+<span class="token punctuation">[</span>
+  <span class="token string">&quot;a&quot;</span>,
+  <span class="token string">&quot;b&quot;</span>,
+  <span class="token string">&quot;c&quot;</span>
+<span class="token punctuation">]</span>
+</code></pre></div><p>Outputs a JSON string, with 4-space indentation, representing the contents of this table</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span>Joe Bob Sam<span class="token punctuation">]</span> <span class="token operator">|</span> to json <span class="token parameter variable">-i</span> <span class="token number">4</span>
+<span class="token punctuation">[</span>
+    <span class="token string">&quot;Joe&quot;</span>,
+    <span class="token string">&quot;Bob&quot;</span>,
+    <span class="token string">&quot;Sam&quot;</span>
+<span class="token punctuation">]</span>
+</code></pre></div><p>Outputs an unformatted JSON string representing the contents of this table</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token number">1</span> <span class="token number">2</span> <span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">|</span> to json <span class="token parameter variable">-r</span>
+<span class="token punctuation">[</span><span class="token number">1,2</span>,3<span class="token punctuation">]</span>
+</code></pre></div>`,11);function h(n,m){return o(),p("div",null,[a("h1",i,[l,s(),a("code",null,t(n.$frontmatter.title),1),s(" for formats")]),a("div",u,t(n.$frontmatter.formats),1),d])}const g=e(c,[["render",h],["__file","to_json.html.vue"]]);export{g as default};
