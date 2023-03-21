@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1b508126","path":"/de/book/command_signature.html","title":"Befehls Signatur","lang":"Deutsch","frontmatter":{},"headers":[],"filePathRelative":"de/book/command_signature.md","git":{"createdTime":1679364430000,"updatedTime":1679364430000,"contributors":[{"name":"petrisch","email":"patrickjoerg@gmx.ch","commits":1}]}}');export{e as data};
