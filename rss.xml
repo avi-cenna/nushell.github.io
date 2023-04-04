@@ -6,8 +6,8 @@
     <link>https://www.nushell.sh/</link>
     <description>A new type of shell.</description>
     <language>English</language>
-    <pubDate>Tue, 04 Apr 2023 20:33:59 GMT</pubDate>
-    <lastBuildDate>Tue, 04 Apr 2023 20:33:59 GMT</lastBuildDate>
+    <pubDate>Tue, 04 Apr 2023 20:35:51 GMT</pubDate>
+    <lastBuildDate>Tue, 04 Apr 2023 20:35:51 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -249,6 +249,7 @@ empty fields of records:</p>
 <h1> Breaking changes</h1>
 <ul>
 <li>Alias changes, see above</li>
+<li>Comments on the same line as code now require a space before <code> #</code> to be recognized as such. This allows you to have a string <code>foo#bar</code> with a pound sign. (<a href="https://github.com/nushell/nushell/pull/8151" target="_blank" rel="noopener noreferrer">#8151</a>)</li>
 <li><code>env</code> command has been removed, use <code>$env</code> instead (https://github.com/nushell/nushell/pull/8185)</li>
 <li><code>str trim</code> no longer has <code>--all</code>, <code>--both</code>, and <code>--format</code> flags. <code>str replace</code> should be an adequate replacement; please let us know if it is not (<a href="https://github.com/nushell/nushell/pull/8205" target="_blank" rel="noopener noreferrer">#8205</a>)</li>
 <li>The changes to timestamp handling noted above (<a href="https://github.com/nushell/nushell/pull/8244" target="_blank" rel="noopener noreferrer">#8244</a>) can require code changes to existing scripts:

@@ -3,7 +3,7 @@
   <id>https://www.nushell.sh/</id>
   <title>Nushell</title>
   <subtitle>A new type of shell.</subtitle>
-  <updated>2023-04-04T20:33:59.725Z</updated>
+  <updated>2023-04-04T20:35:51.033Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://www.nushell.sh/atom.xml"/>
   <link rel="alternate" href="https://www.nushell.sh/"/>
@@ -199,7 +199,7 @@
     <title type="text">Nushell 0.77</title>
     <id>https://www.nushell.sh/blog/2023-03-14-nushell_0_77.html</id>
     <link href="https://www.nushell.sh/blog/2023-03-14-nushell_0_77.html"/>
-    <updated>2023-03-14T21:44:01.000Z</updated>
+    <updated>2023-04-04T20:30:53.000Z</updated>
     <summary type="html"><![CDATA[<h1> Nushell 0.77</h1>
 <p>Nushell, or Nu for short, is a new shell that takes a modern, structured approach to your command line. It works seamlessly with the data from your filesystem, operating system, and a growing number of file formats to make it easy to build powerful command line pipelines.</p>
 <p>Today, we're releasing version 0.77 of Nu. This release adds reworked aliases, more consistent timestamp handling, reworked XML support, and more.</p>
@@ -261,6 +261,7 @@ empty fields of records:</p>
 <h1> Breaking changes</h1>
 <ul>
 <li>Alias changes, see above</li>
+<li>Comments on the same line as code now require a space before <code> #</code> to be recognized as such. This allows you to have a string <code>foo#bar</code> with a pound sign. (<a href="https://github.com/nushell/nushell/pull/8151" target="_blank" rel="noopener noreferrer">#8151</a>)</li>
 <li><code>env</code> command has been removed, use <code>$env</code> instead (https://github.com/nushell/nushell/pull/8185)</li>
 <li><code>str trim</code> no longer has <code>--all</code>, <code>--both</code>, and <code>--format</code> flags. <code>str replace</code> should be an adequate replacement; please let us know if it is not (<a href="https://github.com/nushell/nushell/pull/8205" target="_blank" rel="noopener noreferrer">#8205</a>)</li>
 <li>The changes to timestamp handling noted above (<a href="https://github.com/nushell/nushell/pull/8244" target="_blank" rel="noopener noreferrer">#8244</a>) can require code changes to existing scripts:
