@@ -3,7 +3,7 @@
   <id>https://www.nushell.sh/</id>
   <title>Nushell</title>
   <subtitle>A new type of shell.</subtitle>
-  <updated>2023-04-04T19:56:02.018Z</updated>
+  <updated>2023-04-04T20:33:59.725Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://www.nushell.sh/atom.xml"/>
   <link rel="alternate" href="https://www.nushell.sh/"/>
@@ -14,7 +14,7 @@
     <title type="text">Nushell 0.78</title>
     <id>https://www.nushell.sh/blog/2023-04-04-nushell_0_78.html</id>
     <link href="https://www.nushell.sh/blog/2023-04-04-nushell_0_78.html"/>
-    <updated>2023-04-04T19:52:11.000Z</updated>
+    <updated>2023-04-04T20:28:32.000Z</updated>
     <summary type="html"><![CDATA[<h1> Nushell 0.78</h1>
 <p>Nushell, or Nu for short, is a new shell that takes a modern, structured approach to your command line. It works seamlessly with the data from your filesystem, operating system, and a growing number of file formats to make it easy to build powerful command line pipelines.</p>
 <p>Today, we're releasing version 0.78 of Nu. This release adds pattern matching, speed improvements, easier cell paths when columns may be missing, better error handling, and much more.</p>
@@ -75,7 +75,6 @@
 <h1> Breaking changes</h1>
 <h2> <code>||</code> now required in closures</h2>
 <p>To help differentiate between blocks (which can mutate variables) and closures (which can be used in a pipeline), we've changed the syntax of closures to require <code>||</code>. This means the simplest closure now looks like <code>{|| }</code></p>
-<p>This one is a big deal, as it will break everyone's config. If we're going to keep this change we need to be loud and clear when telling people about it. We should mention it near the very top of the blog post.</p>
 <h2> We no longer automatically print values as part of a script</h2>
 <p>We've changed the automatic-printing rules for scripts and the REPL to now only automatically print the last value. This means two major breaking changes:</p>
 <ul>
