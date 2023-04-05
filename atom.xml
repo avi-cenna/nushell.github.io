@@ -3,7 +3,7 @@
   <id>https://www.nushell.sh/</id>
   <title>Nushell</title>
   <subtitle>A new type of shell.</subtitle>
-  <updated>2023-04-05T16:24:51.793Z</updated>
+  <updated>2023-04-05T16:28:30.694Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://www.nushell.sh/atom.xml"/>
   <link rel="alternate" href="https://www.nushell.sh/"/>
@@ -201,7 +201,7 @@
     <title type="text">Nushell 0.77</title>
     <id>https://www.nushell.sh/blog/2023-03-14-nushell_0_77.html</id>
     <link href="https://www.nushell.sh/blog/2023-03-14-nushell_0_77.html"/>
-    <updated>2023-04-04T20:30:53.000Z</updated>
+    <updated>2023-04-05T16:24:42.000Z</updated>
     <summary type="html"><![CDATA[<h1> Nushell 0.77</h1>
 <p>Nushell, or Nu for short, is a new shell that takes a modern, structured approach to your command line. It works seamlessly with the data from your filesystem, operating system, and a growing number of file formats to make it easy to build powerful command line pipelines.</p>
 <p>Today, we're releasing version 0.77 of Nu. This release adds reworked aliases, more consistent timestamp handling, reworked XML support, and more.</p>
@@ -260,6 +260,15 @@ empty fields of records:</p>
 <h2> Reworked <code>http</code> subcommands (<a href="https://github.com/nushell/nushell/pull/8135" target="_blank" rel="noopener noreferrer">jaudiger</a>, <a href="https://github.com/nushell/nushell/pull/8144" target="_blank" rel="noopener noreferrer">jaudiger</a>)</h2>
 <p>The <code>http</code> command now has more subcommands and existing subcommands have been reworked:</p>
 <div class="language-text" data-ext="text"></div><p>Make sure to browse the help messages of these commands. They contain fully functional examples thanks to pointing at www.example.com.</p>
+<h2> Examples results are now shown in <code>help</code> pages (<a href="https://github.com/nushell/nushell/pull/8189" target="_blank" rel="noopener noreferrer">amtoine</a>)</h2>
+<p>When commands define expected results for their examples, the output is now shown just below the associated examples.</p>
+<p>Let's take the <code>merge</code> command as an example!</p>
+<p>Before the change, the output of <code>help merge</code> would give</p>
+<div class="language-bash" data-ext="sh"></div><p>Now, it gives the output of all the example commands:</p>
+<div class="language-bash" data-ext="sh"></div><blockquote>
+<p>💡 <strong>Note</strong><br>
+the website has been modified accordingly with the same outputs.</p>
+</blockquote>
 <h1> Breaking changes</h1>
 <ul>
 <li>Alias changes, see above</li>

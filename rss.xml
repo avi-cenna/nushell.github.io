@@ -6,8 +6,8 @@
     <link>https://www.nushell.sh/</link>
     <description>A new type of shell.</description>
     <language>English</language>
-    <pubDate>Wed, 05 Apr 2023 16:24:51 GMT</pubDate>
-    <lastBuildDate>Wed, 05 Apr 2023 16:24:51 GMT</lastBuildDate>
+    <pubDate>Wed, 05 Apr 2023 16:28:30 GMT</pubDate>
+    <lastBuildDate>Wed, 05 Apr 2023 16:28:30 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -248,6 +248,15 @@ empty fields of records:</p>
 <h2> Reworked <code>http</code> subcommands (<a href="https://github.com/nushell/nushell/pull/8135" target="_blank" rel="noopener noreferrer">jaudiger</a>, <a href="https://github.com/nushell/nushell/pull/8144" target="_blank" rel="noopener noreferrer">jaudiger</a>)</h2>
 <p>The <code>http</code> command now has more subcommands and existing subcommands have been reworked:</p>
 <div class="language-text" data-ext="text"></div><p>Make sure to browse the help messages of these commands. They contain fully functional examples thanks to pointing at www.example.com.</p>
+<h2> Examples results are now shown in <code>help</code> pages (<a href="https://github.com/nushell/nushell/pull/8189" target="_blank" rel="noopener noreferrer">amtoine</a>)</h2>
+<p>When commands define expected results for their examples, the output is now shown just below the associated examples.</p>
+<p>Let's take the <code>merge</code> command as an example!</p>
+<p>Before the change, the output of <code>help merge</code> would give</p>
+<div class="language-bash" data-ext="sh"></div><p>Now, it gives the output of all the example commands:</p>
+<div class="language-bash" data-ext="sh"></div><blockquote>
+<p>💡 <strong>Note</strong><br>
+the website has been modified accordingly with the same outputs.</p>
+</blockquote>
 <h1> Breaking changes</h1>
 <ul>
 <li>Alias changes, see above</li>
