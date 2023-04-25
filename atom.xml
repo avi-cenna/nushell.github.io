@@ -3,7 +3,7 @@
   <id>https://www.nushell.sh/</id>
   <title>Nushell</title>
   <subtitle>A new type of shell.</subtitle>
-  <updated>2023-04-25T21:44:49.915Z</updated>
+  <updated>2023-04-25T22:53:23.510Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://www.nushell.sh/atom.xml"/>
   <link rel="alternate" href="https://www.nushell.sh/"/>
@@ -14,7 +14,7 @@
     <title type="text">Nushell 0.79</title>
     <id>https://www.nushell.sh/blog/2023-04-25-nushell_0_79.html</id>
     <link href="https://www.nushell.sh/blog/2023-04-25-nushell_0_79.html"/>
-    <updated>2023-04-25T21:40:45.000Z</updated>
+    <updated>2023-04-25T22:47:41.000Z</updated>
     <summary type="html"><![CDATA[<h1> Nushell 0.79</h1>
 <p>Nushell, or Nu for short, is a new shell that takes a modern, structured approach to your command line. It works seamlessly with the data from your filesystem, operating system, and a growing number of file formats to make it easy to build powerful command line pipelines.</p>
 <p>Today, we're releasing version 0.79 of Nu. This release adds a standard library written in nu itself and enhanced IDE support.</p>
@@ -198,7 +198,7 @@ in great details.</li>
 <li>pingiun created <a href="https://github.com/nushell/nushell.github.io/pull/861" target="_blank" rel="noopener noreferrer">Remove deprecated str lpad from examples</a>, and <a href="https://github.com/nushell/nushell.github.io/pull/860" target="_blank" rel="noopener noreferrer">Update environment.md</a></li>
 <li>SamirTalwar created <a href="https://github.com/nushell/nushell.github.io/pull/852" target="_blank" rel="noopener noreferrer">Update the Direnv recipe to use a block, rather than <code>code:</code></a></li>
 </ul>
-<h2> nu_ncripts</h2>
+<h2> nu_scripts</h2>
 <ul>
 <li>sholderbach created <a href="https://github.com/nushell/nu_scripts/pull/462" target="_blank" rel="noopener noreferrer">Include <code>nu-std</code> in the release script</a></li>
 <li>fj0r created <a href="https://github.com/nushell/nu_scripts/pull/461" target="_blank" rel="noopener noreferrer">prompt powerline suppor color theme</a>, and <a href="https://github.com/nushell/nu_scripts/pull/460" target="_blank" rel="noopener noreferrer">refactor: unified configuration environment variables</a>, and <a href="https://github.com/nushell/nu_scripts/pull/455" target="_blank" rel="noopener noreferrer">prompt</a>, and <a href="https://github.com/nushell/nu_scripts/pull/438" target="_blank" rel="noopener noreferrer">upgrade to 0.78: git, ssh, docker, kubernetes</a></li>

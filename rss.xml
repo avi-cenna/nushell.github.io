@@ -6,8 +6,8 @@
     <link>https://www.nushell.sh/</link>
     <description>A new type of shell.</description>
     <language>English</language>
-    <pubDate>Tue, 25 Apr 2023 21:44:49 GMT</pubDate>
-    <lastBuildDate>Tue, 25 Apr 2023 21:44:49 GMT</lastBuildDate>
+    <pubDate>Tue, 25 Apr 2023 22:53:23 GMT</pubDate>
+    <lastBuildDate>Tue, 25 Apr 2023 22:53:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -196,7 +196,7 @@ in great details.</li>
 <li>pingiun created <a href="https://github.com/nushell/nushell.github.io/pull/861" target="_blank" rel="noopener noreferrer">Remove deprecated str lpad from examples</a>, and <a href="https://github.com/nushell/nushell.github.io/pull/860" target="_blank" rel="noopener noreferrer">Update environment.md</a></li>
 <li>SamirTalwar created <a href="https://github.com/nushell/nushell.github.io/pull/852" target="_blank" rel="noopener noreferrer">Update the Direnv recipe to use a block, rather than <code>code:</code></a></li>
 </ul>
-<h2> nu_ncripts</h2>
+<h2> nu_scripts</h2>
 <ul>
 <li>sholderbach created <a href="https://github.com/nushell/nu_scripts/pull/462" target="_blank" rel="noopener noreferrer">Include <code>nu-std</code> in the release script</a></li>
 <li>fj0r created <a href="https://github.com/nushell/nu_scripts/pull/461" target="_blank" rel="noopener noreferrer">prompt powerline suppor color theme</a>, and <a href="https://github.com/nushell/nu_scripts/pull/460" target="_blank" rel="noopener noreferrer">refactor: unified configuration environment variables</a>, and <a href="https://github.com/nushell/nu_scripts/pull/455" target="_blank" rel="noopener noreferrer">prompt</a>, and <a href="https://github.com/nushell/nu_scripts/pull/438" target="_blank" rel="noopener noreferrer">upgrade to 0.78: git, ssh, docker, kubernetes</a></li>
