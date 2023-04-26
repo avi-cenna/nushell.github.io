@@ -1,0 +1,10 @@
+import{_ as t,p as r,q as o,Q as a,t as s,v as n,a1 as l}from"./framework-344bb0e4.js";const p={},c={id:"frontmatter-title-for-dataframe-or-lazyframe",tabindex:"-1"},d=a("a",{class:"header-anchor",href:"#frontmatter-title-for-dataframe-or-lazyframe","aria-hidden":"true"},"#",-1),i={class:"command-title"},f=l(`<h2 id="signature" tabindex="-1"><a class="header-anchor" href="#signature" aria-hidden="true">#</a> Signature</h2><p><code>&gt; dfr shift (period) --fill</code></p><h2 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters" aria-hidden="true">#</a> Parameters</h2><ul><li><code>period</code>: shift period</li><li><code>--fill {any}</code>: Expression used to fill the null values (lazy df)</li></ul><h2 id="examples" tabindex="-1"><a class="header-anchor" href="#examples" aria-hidden="true">#</a> Examples</h2><p>Shifts the values by a given period</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code><span class="token operator">&gt;</span> <span class="token punctuation">[</span><span class="token number">1</span> <span class="token number">2</span> <span class="token number">2</span> <span class="token number">3</span> <span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">|</span> dfr into-df <span class="token operator">|</span> dfr <span class="token builtin class-name">shift</span> <span class="token number">2</span> <span class="token operator">|</span> dfr drop-nulls
+╭───┬───╮
+│ <span class="token comment"># │ 0 │</span>
+├───┼───┤
+│ <span class="token number">0</span> │ <span class="token number">1</span> │
+│ <span class="token number">1</span> │ <span class="token number">2</span> │
+│ <span class="token number">2</span> │ <span class="token number">2</span> │
+╰───┴───╯
+
+</code></pre></div>`,7);function h(e,m){return r(),o("div",null,[a("h1",c,[d,s(),a("code",null,n(e.$frontmatter.title),1),s(" for dataframe or lazyframe")]),a("div",i,n(e.$frontmatter.dataframe_or_lazyframe),1),f])}const k=t(p,[["render",h],["__file","dfr_shift.html.vue"]]);export{k as default};
