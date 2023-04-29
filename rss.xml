@@ -6,8 +6,8 @@
     <link>https://www.nushell.sh/</link>
     <description>A new type of shell.</description>
     <language>English</language>
-    <pubDate>Fri, 28 Apr 2023 13:59:17 GMT</pubDate>
-    <lastBuildDate>Fri, 28 Apr 2023 13:59:17 GMT</lastBuildDate>
+    <pubDate>Sat, 29 Apr 2023 13:27:20 GMT</pubDate>
+    <lastBuildDate>Sat, 29 Apr 2023 13:27:20 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -65,32 +65,32 @@ as part of the built-in set of commands!</p>
 <tr>
 <td><a href="https://github.com/nushell/nushell/blob/main/crates/nu-std/lib/testing.nu" target="_blank" rel="noopener noreferrer"><code>std assert</code></a></td>
 <td>a set of commands to write tests</td>
-<td>assert, assert, equal, assert, error, assert, greater, assert, greater, or, equal, assert, length, assert, less, assert, less, or, equal, assert, not, equal, assert, skip, assert, str, contains</td>
+<td><code>assert</code>, <code>assert equal</code>, <code>assert error</code>, <code>assert greater</code>, <code>assert greater or equal</code>, <code>assert length</code>, <code>assert less</code>, <code>assert less or equal</code>, <code>assert not equal</code>, <code>assert skip</code>, <code>assert str contains</code></td>
 </tr>
 <tr>
 <td><a href="https://github.com/nushell/nushell/blob/main/crates/nu-std/lib/dirs.nu" target="_blank" rel="noopener noreferrer"><code>std dirs</code></a></td>
 <td>a re-implementation of the <code>shells</code> commands</td>
-<td>dirs, add, dirs, drop, dirs, next, dirs, prev, dirs, show</td>
+<td><code>dirs add</code>, <code>dirs drop</code>, <code>dirs next</code>, <code>dirs prev</code>, <code>dirs show</code></td>
 </tr>
 <tr>
 <td><a href="https://github.com/nushell/nushell/blob/main/crates/nu-std/lib/help.nu" target="_blank" rel="noopener noreferrer"><code>std help</code></a></td>
 <td>a Nushell implementation of the built-in commands</td>
-<td>help, help, aliases, help, commands, help, externs, help, modules, help, operators</td>
+<td><code>help</code>, <code>help aliases</code>, <code>help commands</code>, <code>help externs</code>, <code>help modules</code>, <code>help operators</code></td>
 </tr>
 <tr>
 <td><a href="https://github.com/nushell/nushell/blob/main/crates/nu-std/lib/iter.nu" target="_blank" rel="noopener noreferrer"><code>std iter</code></a></td>
 <td>an extension of built-in commands to iterate over data</td>
-<td>iter, filter-map, iter, find, iter, intersperse, iter, scan</td>
+<td><code>iter filter-map</code>, <code>iter find</code>, <code>iter intersperse</code>, <code>iter scan</code></td>
 </tr>
 <tr>
 <td><a href="https://github.com/nushell/nushell/blob/main/crates/nu-std/lib/log.nu" target="_blank" rel="noopener noreferrer"><code>std log</code></a></td>
 <td>never miss something in your scripts</td>
-<td>log, critical, log, debug, log, error, log, info, log, warning</td>
+<td><code>log critical</code>, <code>log debug</code>, <code>log error</code>, <code>log info</code>, <code>log warning</code></td>
 </tr>
 <tr>
 <td><a href="https://github.com/nushell/nushell/blob/main/crates/nu-std/lib/xml.nu" target="_blank" rel="noopener noreferrer"><code>xml</code> module</a></td>
 <td>tools to interact with Xml data</td>
-<td>xaccess, xinsert, xtype, xupdate</td>
+<td><code>xaccess</code>, <code>xinsert</code>, <code>xtype</code>, <code>xupdate</code></td>
 </tr>
 </tbody>
 </table>
