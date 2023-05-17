@@ -3,7 +3,7 @@
   <id>https://www.nushell.sh/</id>
   <title>Nushell</title>
   <subtitle>A new type of shell.</subtitle>
-  <updated>2023-05-17T06:44:07.399Z</updated>
+  <updated>2023-05-17T06:50:00.009Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://www.nushell.sh/atom.xml"/>
   <link rel="alternate" href="https://www.nushell.sh/"/>
@@ -14,7 +14,7 @@
     <title type="text">Nushell 0.80</title>
     <id>https://www.nushell.sh/blog/2023-05-16-nushell_0_80.html</id>
     <link href="https://www.nushell.sh/blog/2023-05-16-nushell_0_80.html"/>
-    <updated>2023-05-17T00:27:03.000Z</updated>
+    <updated>2023-05-17T06:44:55.000Z</updated>
     <summary type="html"><![CDATA[<h1> Nushell 0.80</h1>
 <p>Nushell, or Nu for short, is a new shell that takes a modern, structured approach to your command line. It works seamlessly with the data from your filesystem, operating system, and a growing number of file formats to make it easy to build powerful command line pipelines.</p>
 <p>Today, we're releasing version 0.80 of Nu. This release adds record type annotations, modules from directories, and improvements to the standard library.</p>
@@ -30,7 +30,7 @@
 <h1> Themes of this release / New features</h1>
 <h2> Record type annotations (<a href="https://github.com/nushell/nushell/pull/8914" target="_blank" rel="noopener noreferrer">@1Kinoti</a>)</h2>
 <p>Starting with this release, you can add more information about the type of a record your command expects. For example:</p>
-<div class="language-text" data-ext="text"></div><p>The above will require two fields to be present, a <code>name</code> that's a <code>string, and an </code>age<code>that's an</code>int`. The current version requires that the record has exactly these fields, though we may loosen this in future releases to allow for structural subtyping.</p>
+<div class="language-text" data-ext="text"></div><p>The above will require two fields to be present, a <code>name</code> that's a <code>string</code>, and an <code>age</code> that's an <code>int</code>. The current version requires that the record has exactly these fields, though we may loosen this in future releases to allow for structural subtyping.</p>
 <h2> Modules from directories (<a href="https://github.com/nushell/nushell/pull/9066" target="_blank" rel="noopener noreferrer">@Kubouch</a>)</h2>
 <p>It is now possible to create a module from a directory. The directory must contain <code>mod.nu</code> and all other .nu files are added as a submodule of the module. This allows some traditional shell patterns such as dumping completion files into a directory to be loaded automatically. Check out the newly updated <a href="https://www.nushell.sh/book/modules.html" target="_blank" rel="noopener noreferrer">book chapter</a> for more details and examples.</p>
 <p>The enabling feature for module directories was organizing modules into submodule structure instead of solely relying on re-importing symbols with <code>export use</code>. <code>module</code> and especially <code>export module</code> have been added as a result of this change. While not immediately visible, the module update allows for cleaner submodule oganization without relying on re-exporting symbols with <code>export use</code>. Since modules are now aware of their submodules, in the future we hope to improve discoverability of definitions within modules, enhancing our IDE support (such as our <a href="https://github.com/nushell/vscode-nushell-lang" target="_blank" rel="noopener noreferrer">LSP</a>).</p>
@@ -98,7 +98,7 @@
 </tr>
 <tr>
 <td>4ca47258a</td>
-<td>Add --redirect-combine option to run-external</td>
+<td>Add <code>--redirect-combine</code> option to run-external</td>
 <td><a href="https://github.com/nushell/nushell/pull/8918" target="_blank" rel="noopener noreferrer">#8918</a></td>
 </tr>
 <tr>
